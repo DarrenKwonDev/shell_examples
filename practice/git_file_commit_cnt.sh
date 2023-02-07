@@ -26,5 +26,4 @@ files=$(ls ./)
 for file in $files; do
     printf "%s :" "$file"
     git rev-list --after="$start" --before="$end" --count --no-merges HEAD -- "$file"
-
 done | sort -k2 -nr | awk '{printf("%20s %5d\n", $1, $2)}' | nl
