@@ -3,6 +3,7 @@
 ## powershell
 
 -   [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
+-   [powershell gallery](https://www.powershellgallery.com/)
 
 ## bash
 
