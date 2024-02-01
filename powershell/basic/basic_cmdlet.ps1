@@ -12,7 +12,7 @@ Get-Service | head
 # 모든 프로세스 출력
 Get-Process | head
 
-# help로 인자 확인
+# help(Get-Help)로 인자 확인
 help Get-Process
 help Get-Process -online # 웹 document로 확인
 
